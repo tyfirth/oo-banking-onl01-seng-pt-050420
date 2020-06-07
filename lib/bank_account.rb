@@ -17,11 +17,11 @@ class BankAccount
     p "Your balance is $#{self.balance}."
   end
   
-  def balance= (balance)
+  def balance=(balance)
     @balance 
   end
   
-  def status= (status)
+  def status=(status)
     @status
   end
   
